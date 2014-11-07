@@ -71,7 +71,7 @@
 	<div id="maincont" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 300, repeat: true}">
 
 		<p><strong>vayulink networks</strong> welcomes you</p>
-        <h2>we launch this october with a blast !!</h2>
+        <h2>we launch this december with a blast !!</h2>
         <p>If you would like to receive <strong>news and special offers</strong> please contact us at admin@vayulink.com</p>
 
 	</div>
