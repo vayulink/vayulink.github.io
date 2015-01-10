@@ -1,0 +1,109 @@
+/** Menu Styles **/
+#menucont ul.menu {
+    margin:0
+}
+
+#menucont ul.menu li {
+    position:relative;
+    float:left;
+    list-style-type:none;
+    padding:0
+}
+
+#menucont ul.menu li a {
+    float:left;
+    color:#FFF;
+    padding:0 15px;
+    margin:0;
+    font-weight:300;
+    line-height:52px;
+    text-decoration:none;
+    text-transform:uppercase
+}
+
+#menucont ul.menu li a:hover {
+    background:#11c9a0;
+    font-weight:600
+}
+
+#menucont ul.menu li.active a,#menucont ul.menu li.active a:hover {
+    background:#11c9a0;
+    font-weight:600
+}
+
+#menucont .menutitle {
+    display:none
+}
+
+@media screen and (max-width: 768px) {
+#menucont .menu {
+    display:none;
+    margin:0
+}
+
+#menucont .menu.open {
+    display:block
+}
+
+#menucont ul.menu li {
+    position:relative;
+    float:none
+}
+
+#menucont ul.menu li,#menucont ul.menu ul li {
+    display:block
+}
+
+#menucont ul.menu li a {
+    width:100%;
+    display:inline-block;
+    margin:0;
+    padding:5px 0;
+    text-indent:0;
+    line-height:23px;
+    color:rgba(255,255,255,0.6);
+    background:none;
+    font-weight:300;
+    text-transform:uppercase
+}
+
+#menucont ul.menu li.active a {
+    font-weight:600;
+    color:#FFF
+}
+
+#menucont ul.menu li a:hover {
+    color:#FFF;
+    background:none
+}
+
+#menucont ul.menu > li:last-child a {
+    margin:0 0 20px
+}
+
+#menucont .menutitle {
+    display:block;
+    width:100%;
+    padding:12px 42px 12px 0;
+    display:block;
+    cursor:pointer;
+    text-align:left;
+    color:#FFF;
+    text-transform:uppercase
+}
+
+#menucont .menutitle p {
+    margin-bottom:0
+}
+
+#menucont .menutitle p strong {
+    margin:0;
+    font-size:18px;
+    font-weight:300
+}
+
+#menucont .menutitle span {
+    margin:0 0 0 8px;
+    font-size:18px
+}
+}
